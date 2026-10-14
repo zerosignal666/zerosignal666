@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" role="img" aria-labelledby="title desc">
+  <title id="title">像素花园</title>
+  <desc id="desc">奶油色背景上的像素电脑、小机器人、树木和爱心，用薄荷绿、紫色与粉色绘制。</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#eadff0" stroke-width="1"/>
+    </pattern>
+    <g id="spark" fill="currentColor">
+      <path d="M8 0h4v8h8v4h-8v8H8v-8H0V8h8z"/>
+    </g>
+    <g id="cloud" fill="#fffdf7">
+      <path d="M0 12h12V4h16V0h24v8h16v8h12v12H0z"/>
+    </g>
+    <g id="flower">
+      <path d="M12 16h4v24h-4zM4 28h8v4H4zm12-4h8v4h-8z" fill="#66bca5"/>
+      <path d="M8 0h12v8h8v12h-8v8H8v-8H0V8h8z" fill="#ff98ae"/>
+      <path d="M8 8h12v12H8z" fill="#ffe18c"/>
+    </g>
+  </defs>
+
+  <!-- Stepped corners keep the frame pixel-shaped. -->
+  <path d="M24 4h912v8h12v12h8v232h-8v12h-12v8H24v-8H12v-12H4V24h8V12h12z" fill="#e8def4"/>
+  <path d="M28 12h904v8h12v12h4v216h-4v12h-12v8H28v-8H16v-12h-4V32h4V20h12z" fill="#fff8ee"/>
+  <path d="M28 12h904v8h12v12h4v216h-4v12h-12v8H28v-8H16v-12h-4V32h4V20h12z" fill="url(#grid)" opacity=".55"/>
+
+  <!-- A small pastel sky. -->
+  <use href="#cloud" x="104" y="64"/>
+  <use href="#cloud" x="746" y="52"/>
+  <use href="#spark" x="222" y="42" color="#d0b7ed"/>
+  <use href="#spark" x="688" y="104" color="#ffbf73"/>
+  <use href="#spark" x="824" y="138" color="#b7a0df"/>
+  <use href="#spark" x="316" y="112" color="#ffbf73"/>
+  <path d="M66 132h8v8h-8zm814-40h8v8h-8zM650 38h8v8h-8zM272 166h8v8h-8z" fill="#a4dacd"/>
+
+  <!-- Floating pixel heart. -->
+  <path d="M554 54h8v-8h16v8h8v-8h16v8h8v24h-8v8h-8v8h-16v-8h-8v-8h-8V54z" fill="#ef829f"/>
+  <path d="M562 54h8v8h-8z" fill="#ffc2d0"/>
+
+  <!-- Grass platform and its lavender shadow. -->
+  <path d="M136 228h688v12H136z" fill="#d9c9ea"/>
+  <path d="M120 212h720v12H120z" fill="#b5e5d5"/>
+  <path d="M136 224h688v8H136z" fill="#89cbb5"/>
+  <path d="M144 212h20v4h-20zm64 0h28v4h-28zm520 0h28v4h-28zm64 0h20v4h-20z" fill="#e7f6de"/>
+
+  <!-- Pixel trees. -->
+  <path d="M198 160h12v52h-12z" fill="#bd9a99"/>
+  <path d="M174 112h16v-12h28v12h16v16h12v28h-12v12h-60v-12h-12v-28h12z" fill="#89cfb7"/>
+  <path d="M174 128h12v-12h24v-8h8v16h-16v12h-28z" fill="#bcebd2"/>
+  <path d="M710 166h12v46h-12z" fill="#bd9a99"/>
+  <path d="M686 122h16v-12h28v12h16v16h12v24h-12v12h-60v-12h-12v-24h12z" fill="#b6a0dd"/>
+  <path d="M686 138h12v-12h24v-8h8v16h-16v12h-28z" fill="#dbcbef"/>
+
+  <!-- Laptop, drawn entirely on a pixel grid. -->
+  <path d="M396 104h168v8h8v88H388v-88h8z" fill="#69557e"/>
+  <path d="M400 116h160v72H400z" fill="#d7f3e7"/>
+  <path d="M400 116h160v8H400z" fill="#a7ddca"/>
+  <path d="M416 140h8v8h8v8h-8v8h-8v-8h8v-8h-8zm32 24h24v8h-24z" fill="#69557e"/>
+  <path d="M532 140h8v8h8v8h-8v8h-8v-8h-8v-8h8z" fill="#ee91ab"/>
+  <path d="M380 200h200v8h8v8H372v-8h8z" fill="#a98ec9"/>
+  <path d="M380 200h200v8H380z" fill="#cdbbe4"/>
+  <path d="M456 200h48v4h-48z" fill="#826a9d"/>
+
+  <!-- A curious little robot. -->
+  <path d="M625 156h6v14h-6z" fill="#69557e"/>
+  <path d="M621 150h14v8h-14z" fill="#ffcb76"/>
+  <path d="M604 174h8v-8h32v8h8v28h-8v10h-8v-10h-16v10h-8v-10h-8z" fill="#69557e"/>
+  <path d="M612 174h32v20h-32z" fill="#ffdfa0"/>
+  <path d="M616 178h4v8h-4zm20 0h4v8h-4z" fill="#69557e"/>
+  <path d="M624 188h8v4h-8z" fill="#ef829f"/>
+  <path d="M596 182h8v8h-8zm56-4h8v8h-8z" fill="#a98ec9"/>
+
+  <use href="#flower" x="280" y="172"/>
+  <use href="#flower" x="766" y="172"/>
+  <path d="M336 204h4v8h-4zm8-4h4v12h-4zm-192-8h4v20h-4zm8 8h4v12h-4z" fill="#66bca5"/>
+</svg>
